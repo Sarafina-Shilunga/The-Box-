@@ -1,1 +1,73 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #2e294e;
+    overflow-x: hidden;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.6;
+    color: #7fefbd;
+}
+h1, h2, h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+a{
+    color: #2e294e;
+}
 
+.site-header{
+    width: 100%;
+    padding: 20px 7%;
+    background: #d90368;
+    border-bottom: 1px solid #2e294e;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    color: #2e294e;
+    text-decoration: none;
+}
+.logo span{
+    color: #7fefbd;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #2e294e;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+.nav-links a:hover{
+    color: #7fefbd;
+}
+.nav-button, .primary-button{
+    display: inline-block;
+    background: #7fefbd;
+    color: #d90368;
+    text-decoration: none;
+    padding: 11px 20px;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    transition: 0.3s;
+    border-radius: 100%;
+}
+.nav-button:hover, .primary-button{
+    background: #2e294e;
+    transform: translateY(-2px);
+}
