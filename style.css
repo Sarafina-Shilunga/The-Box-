@@ -21,6 +21,8 @@ a{
     color: #2e294e;
 }
 
+
+/*The head */
 .site-header{
     width: 100%;
     padding: 20px 7%;
@@ -67,7 +69,74 @@ a{
     transition: 0.3s;
     border-radius: 100%;
 }
-.nav-button:hover, .primary-button{
+.primary-button{
+    display: inline-block;
+    background: #2e294e;
+    color: #d90368;
+    text-decoration: none;
+    padding: 11px 20px;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    transition: 0.3s;
+    border-radius: 100%;
+}
+.nav-button:hover, .primary-button:hover{
     background: #2e294e;
     transform: translateY(-2px);
 }
+
+/* the hero section*/
+.hero{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 7%;
+    width: 86%;
+    margin: 30px auto 80px;
+    border: 5px solid #d90368;
+    text-align: center;
+    background: #7fefbd;
+    
+}
+.hero-content{
+    max-width: 520px;
+    margin: 0 auto;
+}
+.eyebrow, .section-label{
+    color: #d90368;
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.hero h1{
+    color: #d90368;
+    font-size: clamp(3rem, 5vw, 5rem);
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.hero h1 span{
+    display: block;
+    color: #2e294e;
+    font-style: italic;
+    text-align: center;
+}
+.hero-description{
+    font-family: "Caveat", cursive;
+    font-size: 1.5rem;
+    color: #d90368;
+    margin-bottom: 30px;
+    transform: rotate(-3deg);
+    text-align: center;
+}
+.handwritten-note{
+    font-family: "Caveat", cursive;
+    font-size: 1.5rem;
+    color: #d90368;
+    margin-top: 28px;
+    transform: rotate(3deg);
+    text-align: center;
+}
+
