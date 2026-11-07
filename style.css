@@ -27,7 +27,7 @@ a{
     width: 100%;
     padding: 20px 7%;
     background: #d90368;
-    border-bottom: 1px solid #2e294e;
+    border-bottom: 5px solid #2e294e;
 }
 .navbar{
     display:flex;
@@ -58,17 +58,7 @@ a{
 .nav-links a:hover{
     color: #7fefbd;
 }
-.nav-button, .primary-button{
-    display: inline-block;
-    background: #7fefbd;
-    color: #d90368;
-    text-decoration: none;
-    padding: 11px 20px;
-    border-radius: 3px;
-    font-size: 0.85rem;
-    transition: 0.3s;
-    border-radius: 100%;
-}
+
 .primary-button{
     display: inline-block;
     background: #2e294e;
@@ -81,8 +71,9 @@ a{
     border-radius: 100%;
 }
 .nav-button:hover, .primary-button:hover{
-    background: #2e294e;
+    background: #d90368;
     transform: translateY(-2px);
+    color: #2e294e;
 }
 
 /* the hero section*/
@@ -96,6 +87,7 @@ a{
     margin: 30px auto 80px;
     border: 5px solid #d90368;
     text-align: center;
+    border-radius: 4%;
     background: #7fefbd;
     
 }
@@ -139,4 +131,37 @@ a{
     transform: rotate(3deg);
     text-align: center;
 }
+/*The introduction*/
 
+.intro-section{
+    padding: 100px 20%;
+    text-align: center;
+    background: #d90368;
+    position: relative;
+    min-height: 65vh;
+    align-items: center;
+    width: 86%;
+    margin: 30px auto 80px;
+    border: 6px solid #7fefbd;
+    border-radius: 150%;
+}
+.intro-section h2{
+    color: #2e294e;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 25px;
+}
+.intro-section > p:not(.section-label) {
+    max-width:650px;
+    margin: 0 auto 15px;
+    color: #2e294e;
+    font-size: 0.95rem;
+}
+.intro-decoration{
+    display: block;
+    font-family: "Caveat", cursive;
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+
+/* */
