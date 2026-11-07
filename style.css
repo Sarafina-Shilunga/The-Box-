@@ -164,4 +164,31 @@ a{
 }
 
 
-/* */
+/* The collection */
+.archive-section{
+    padding: 100px 20%;
+    text-align: center;
+    background: #2e294e;
+    position: relative;
+    min-height: 65vh;
+    align-items: center;
+    width: 86%;
+    margin: 30px auto 80px;
+    border: 6px solid #d90368;
+    
+}
+.section-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-heading h2{
+    color: #7fefbd;
+    font-size: clamp(2.3rem,4vm, 3.5rem);
+    margin-bottom: 12px;
+}
+.section-heading > p:last-child{
+    color: #d90368;
+    font-size: 0.9rem;
+}
+/*Cards*/
+/*lets do this tomorrow*/
